@@ -1,0 +1,29 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+
+[16, 21, 11, 8, 12, 22] dizisinin Merge Sort algoritması kullanılarak sıralanma aşamaları:
+
+Adım 1: [16, 21, 11, 8, 12, 22]
+Diziyi ikiye bölerek daha küçük parçalara ayırıyoruz.
+
+Adım 2: [16, 21, 11], [8, 12, 22]
+Her bir yarı diziyi ayrı ayrı ele alıyoruz.
+
+Adım 3: [16], [21, 11], [8], [12, 22]
+Her bir yarı diziyi tekrar ikiye bölerek daha küçük parçalara ayırıyoruz.
+
+Adım 4: [16], [21], [11], [8], [12], [22]
+Parçalara ayrılan dizileri tek elemanlı hale getiriyoruz.
+
+Adım 5: [16, 21], [11, 8], [12, 22]
+Sıralı iki elemanlı dizileri birleştiriyoruz.
+
+Adım 6: [8, 11, 16, 21], [12, 22]
+Daha büyük sıralı dizileri birleştiriyoruz.
+
+Adım 7: [8, 11, 12, 16, 21, 22]
+Son olarak, tüm parçaları birleştirerek sıralı diziyi elde ediyoruz.
+
+Bu şekilde, [16, 21, 11, 8, 12, 22] dizisi Merge Sort algoritması kullanılarak sıralanmış olur.

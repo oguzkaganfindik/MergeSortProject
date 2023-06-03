@@ -1,0 +1,5 @@
+[16,21,11,8,12,22] -> Merge Sort
+Big-O gösterimini yazınız.
+
+* Merge Sort algoritmasının Big-O gösterimi O(nlogn)'dir. 
+Bu, dizinin boyutu n olduğunda Merge Sort'un en kötü durumda nlogn adımda çalıştığı anlamına gelir.
